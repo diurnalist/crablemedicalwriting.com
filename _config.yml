@@ -1,0 +1,14 @@
+safe:    false
+baseurl: ""
+url:     http://www.crablemedicalwriting.com
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+future:    true
+markdown:  rdiscount
+permalink: date
+
+rdiscount:
+  extensions: [smart]
