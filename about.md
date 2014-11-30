@@ -19,7 +19,7 @@ Writer with Randstad Pharma and has established Crable
 Medical Writing as a means of providing regulatory
 writing services to her other clients/contacts.
 
-### EXPERIENCE SUMMARY
+### Experience Summary
 
 Extensive experience writing clinical study reports (Phases 1-4), protocols,
 investigator brochures, narratives, submission documents (including IND

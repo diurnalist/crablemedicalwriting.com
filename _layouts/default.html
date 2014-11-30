@@ -38,19 +38,21 @@
 
 <div id="main">
 
-  <div id="sidebar">
-  </div>
-
-  <header class="indent">
-      <nav>
-        <a href="/">home</a>
-        <a class="page" href="/about.html">about</a>
+  <header class="header">
+      <h1 class="top-heading">Crable Medical Writing</h1>
+      <nav class="top-nav">
+        <a class="top-nav-item" href="/">home</a>
+        <a class="top-nav-item" href="/about.html">about</a>
+        <a class="top-nav-item" href="/services.html">services</a>
+        <a class="top-nav-item" href="/contact.html">contact</a>
       </nav>
   </header>
   
-  {{ content }}
+  <article class="main-content">
+    {{ content }}
+  </article>
 
-  <footer class="indent"></footer>
+  <footer class="footer">&copy; 2014 Kathleen Crable</footer>
 
 </div>
 
