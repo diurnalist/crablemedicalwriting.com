@@ -5,6 +5,7 @@ url:     http://www.crablemedicalwriting.com
 source:      .
 destination: ./_site
 plugins:     ./_plugins
+exclude:     ['Gemfile', 'Gemfile.lock', 'Makefile', 'README.md']
 
 future:    true
 markdown:  rdiscount
