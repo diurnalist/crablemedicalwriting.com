@@ -14,3 +14,7 @@ narrative projects.
 With a reputation for consistently providing on-time delivery of quality documents across
 a broad range of therapeutic areas, Crable Medical Writing can partner with your project
 team to meet your specific goals.
+
+<div class="portrait">
+  <img src="./images/kathy.jpg" alt="Kathy Crable" />
+</div>

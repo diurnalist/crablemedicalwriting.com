@@ -7,6 +7,5 @@ Crable Medical Writing<br>
 Suite 218<br>
 Springfield, OR 97477<br>
 
-crable.medicalwriting@gmail.com
-
+crable.medicalwriting@gmail.com<br>
 541-747-4401

@@ -10,11 +10,8 @@
   <!-- Homepage CSS -->
   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
 
-  {% if site.typekit %}
-  <!-- Typekit -->
-  <script type="text/javascript" src="http://use.typekit.com/{{ site.typekit }}.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  {% endif %}
+  <!-- Custom font -->
+  <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
 
   <!-- Page scripts -->
   <script type="text/javascript" src="/js/ender.min.js"></script>
@@ -36,24 +33,28 @@
 </head> 
 <body>
 
-<div id="main">
-
   <header class="header">
+    <div class="content-wrapper">
       <h1 class="top-heading">Crable Medical Writing</h1>
       <nav class="top-nav">
-        <a class="top-nav-item" href="/">home</a>
-        <a class="top-nav-item" href="/about.html">about</a>
-        <a class="top-nav-item" href="/services.html">services</a>
-        <a class="top-nav-item" href="/contact.html">contact</a>
+        {% for link in site.navigation %}
+          <a class="top-nav-item {% if page.url contains link.url %}active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
       </nav>
-  </header>
+    </div>
+  </header> 
   
-  <article class="main-content">
-    {{ content }}
-  </article>
+  <div class="page">
+    <div class="content-wrapper">
+      <article class="page-content">
+        {{ content }}
+      </article>
+    </div>
+  </div>
 
-  <footer class="footer">&copy; 2014 Kathleen Crable</footer>
-
+  <div class="content-wrapper">
+    <footer class="footer">&copy; 2015 Kathleen Crable</footer>
+  </div>
 </div>
 
 </body>

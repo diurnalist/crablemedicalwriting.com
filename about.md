@@ -5,8 +5,9 @@ layout: default
 Kathleen P. (Anderson) Crable has a PhD in biochemistry
 and was an Associate Professor in the Division of
 Hematology-Oncology at Cincinnati Children’s Hospital
-before turning to a career in medical writing. During
-her 14-year tenure in academic medicine, Dr. Crable
+before turning to a career in medical writing.
+
+During her 14-year tenure in academic medicine, Dr. Crable
 wrote and edited grants to federal and private agencies
 to successfully maintain continuous research funding.
 In 2005, Dr. Crable took a position as a Senior Medical

@@ -2,6 +2,16 @@ safe:    false
 baseurl: ""
 url:     http://www.crablemedicalwriting.com
 
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about.html
+ - title: Services
+   url: /services.html
+ - title: Contact
+   url: /contact.html
+
 source:      .
 destination: ./_site
 plugins:     ./_plugins
