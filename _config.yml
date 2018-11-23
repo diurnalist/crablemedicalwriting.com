@@ -1,6 +1,8 @@
-safe:    false
-baseurl: ""
-url:     http://www.crablemedicalwriting.com
+url:     https://www.crablemedicalwriting.com
+
+exclude:
+  - scripts
+  - README.md
 
 navigation:
  - title: Home
@@ -11,15 +13,3 @@ navigation:
    url: /services.html
  - title: Contact
    url: /contact.html
-
-source:      .
-destination: ./_site
-plugins:     ./_plugins
-exclude:     ['Gemfile', 'Gemfile.lock', 'Makefile', 'README.md']
-
-future:    true
-markdown:  rdiscount
-permalink: date
-
-rdiscount:
-  extensions: [smart]
